@@ -1,0 +1,133 @@
+/* RESET STYLES
+----------------------------------------------- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: inherit;
+	font-style: normal;
+	vertical-align: baseline;
+	background: transparent;
+	border: 0;
+	outline: 0;
+}
+
+/* HTML5 RESETS FOR OLDER BROWSERS */
+article, aside, figure, figure img, hgroup, footer, header, nav, section {
+	display: block;
+}
+
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+input, select { vertical-align: middle; }
+a img { border: 0; }
+:focus { outline: 0; }
+a:hover, a:active { outline: none; }
+
+#container {
+	margin:0 auto;
+	padding:0 110px 0 110px;
+	color: hsl(90, 2%, 33%);
+	font-family:georgia,sans-serif;
+	line-height:1.5em;
+	position:relative;
+	width:72%;
+	max-width: 800px;
+	}
+	
+header {
+	overflow: hidden;
+}	
+header h1 {
+	background:transparent url("moeyaert.jpg") no-repeat scroll left top;
+	display:block;
+	float:left;
+	height:100px;
+	margin-top:20px;
+	width:186px;
+	}
+	
+header h1 span {
+	display: none;
+	}
+	
+div#container>header p {
+	float:right;
+	margin-top:20px;
+	width:70%;
+	text-align: right;
+	font-family: droid-sans, sans-serif;
+	font-size: 250%;
+	padding: 0;
+	color: slategray;
+	}
+	
+aside {
+	clear:both;
+	float:left;
+	margin:0px 20px 10px 0px;
+	width:186px;
+	padding-top: 10px;
+	}
+
+aside p {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	font-family:georgia, serif;
+	font-size: 0.9em;
+	font-style:italic;
+	line-height:2;
+	text-align:center;
+	}
+
+aside img {
+	margin: 0 auto;
+	padding-top: 10px;
+	}
+	
+article>header p {
+	text-align: right;
+	font-size: 120%;
+	text-transform: uppercase;
+	color: slategray;
+}
+
+main {
+	clear: both;
+	margin-top: 20px;
+    padding: 0 0;
+}
+
+h2,p  {	
+	padding-bottom: 0.9em;
+	}
+	
+h2 {font-size: 150%;
+	font-weight: bold;
+	text-align: right;
+}
+
+a {
+	color: #a33716;
+	text-decoration: none;
+	}
+	
+a:hover {
+	text-decoration: underline;
+	}
+
+
+
+

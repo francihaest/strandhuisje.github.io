@@ -1,0 +1,403 @@
+/*Algemeen*/
+
+body {
+    font-size: 24px;
+    font-family: 'Slabo 27px', serif;
+    background-color: rgba(251, 233, 231, 0.15);
+}
+
+.witteAchtergrond {
+    margin: 0 auto;
+    width: 80%;
+    box-shadow: 0 2px 2px rgba(232, 197, 186, 0.3);
+    margin-top: 10px;
+    background-color: white;
+    max-width: 1000px;
+}
+
+.alles {
+    padding: 2px 5% 18px;
+}
+
+section,
+article {
+    margin-bottom: 0;
+}
+
+main {
+    display: block;
+}
+
+.minderMargin {
+    margin-bottom: 10px;
+}
+
+.meerMargin {
+    margin-bottom: 80px;
+}
+
+ul{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+/*header*/
+
+header h1 {
+    color: aliceblue;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-align: left;
+    font-family: 'Droid Sans', sans-serif;
+    text-shadow: 0 0 4px black;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    margin: 0 0 1px 5%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header {
+    background-image: url(img/Logo.jpg);
+    height: 149px;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/*Navigatie*/
+
+nav ul {
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 4px inset rgba(195, 181, 179, 0.29);
+    margin: 2px 0 30px;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    border-right: 2px inset rgba(195, 181, 179, 0.29);
+    width: 195px;
+}
+
+nav a {
+    display: block;
+    font-size: 20px;
+    font-family: 'Droid Sans', sans-serif;
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(16, 141, 218);
+    padding: 10px 0 7px;
+    margin: 2px;
+}
+
+.UBentHier,
+nav a:focus,
+nav li:hover {
+    color: white;
+    background-color: rgba(16, 141, 218, 0.26);
+}
+
+/*Tabellen*/
+
+table {
+    border: 1px solid rgb(13, 112, 210);
+    width: 450px;
+    border-collapse: collapse;
+    margin-top: 0;
+    border-radius: 2px;
+    margin-bottom: 40px;
+}
+
+th {
+    font-size: 22px;
+    color: white;
+    line-height: 1;
+    overflow: hidden;
+    font-weight: normal;
+    vertical-align: bottom;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding: 5px 5px 10px 5px;
+    height: 40px;
+    width: 28%;
+    background-color: rgba(134, 99, 94, 0.4);
+}
+
+th:first-child {
+    font-weight: bold;
+    width: 16%;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(134, 99, 94, 0.07);
+}
+
+td {
+    text-align: center;
+}
+
+td:first-child {
+    text-align: left;
+    font-weight: bold;
+}
+
+td.tfoot {
+    text-align: right;
+    font-weight: normal;
+}
+
+
+/*Afbeeldingen*/
+
+img {
+    width: 40%;
+    float: right;
+    margin: 0 0 5px 5px;
+    clear: right;
+    box-shadow: 0 0 6px #b4aeae;
+}
+
+iframe {
+    width: 80%;
+    margin: 0 10%
+}
+
+/*Titels*/
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(10, 86, 164);
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(13, 112, 210);
+}
+
+h3 {
+    font-size: 20px;
+    color: rgb(126, 190, 253);
+}
+
+
+/*Footer*/
+
+.footer {
+    height: 150px;
+    padding: 20px 5% 18px 5%;
+    background-color: transparent;
+    border-top: 4px solid rgba(195, 181, 179, 0.29);
+}
+
+.DonkereTekst {
+    margin: 0 0 5px 0;
+    font-family: 'Droid Sans', sans-serif;
+    color: rgb(16, 141, 218);
+}
+
+#knoppenStudios ul {
+    margin: 0;
+    padding: 0;
+}
+
+#knoppenStudios li {
+    list-style-type: none;
+    float: left;
+    width: 125px;
+}
+
+#knoppenStudios a {
+    border: 3px solid rgba(195, 181, 179, 0.29);
+    padding: 8px;
+    border-radius: 25px;
+    display: block;
+    margin: 0 10px 10px 0;
+    font-size: 20px;
+    font-family: 'Droid Sans', sans-serif;
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(16, 141, 218);
+}
+
+#knoppenStudios a:hover,
+#knoppenStudios a:focus {
+    background-color: rgba(16, 141, 218, 0.26);
+}
+
+/*Formulier */
+form{
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 20px;
+}
+form p{
+    margin-bottom: 20px;
+}
+label, input{
+    display:inline-block;
+}
+
+label{
+    width: 175px;
+}
+
+.kleinerInput{
+    width: 100px;
+}
+
+.groterInput{
+    width: 310px;
+}
+
+.ietsMeerMargin{
+    margin-bottom: 40px;
+}
+input{
+    height: 23px;
+    margin-top: 0;
+    padding-left: 2px;
+    width: 200px;
+    border: 1px solid grey;
+    font-size: 18px;
+}
+select{
+    height: 28px;
+    border: 1px solid grey;
+    width: 200px;
+    font-size: 18px;
+}
+
+textarea{
+   font-size: 18px;
+    width: 80%
+}
+
+.button{
+    float: right;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: rgb(10, 86, 164);
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 2px;
+    width: 150px;
+}
+
+/*Tabel home pagina*/
+
+#weerTabel table {
+    border: 1px solid rgb(13, 112, 210);
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0;
+    border-radius: 2px;
+    margin-bottom: 40px;
+}
+
+#weerTabel th {
+    font-size: 22px;
+    color: white;
+    line-height: 1;
+    overflow: hidden;
+    font-weight: normal;
+    vertical-align: bottom;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding: 5px 5px 10px 5px;
+    height: 40px;
+    width: 28%;
+    background-color: rgb(10, 86, 164);
+}
+
+#weerTabel th:first-child {
+    font-weight: bold;
+    width: 16%;
+    text-align: left;
+}
+
+#weerTabel tr:nth-child(even) {
+    background-color: rgba(10, 86, 164, 0.12);
+}
+
+#weerTabel td {
+    text-align: center;
+}
+
+#weerTabel td:first-child {
+    text-align: left;
+    font-weight: bold;
+}
+
+#weerTabel td.tfoot {
+    text-align: right;
+    font-weight: normal;
+    background-color: rgb(10, 86, 164);
+    color:aliceblue;
+}
+
+@media screen and (max-width: 625px) {
+    .witteAchtergrond {
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    body {
+        font-size: 18px;
+    }
+    nav li {
+        width: 100%;
+    }
+    
+    img {
+    width: 100%;
+}
+    iframe {
+    width: 100%;
+    margin: 0;
+}
+    header h1 {
+    font-size: 30px;
+}
+    
+    h1{
+        font-size: 35px;
+    }
+    
+    h2{
+    font-size: 20px;
+    }
+    
+    #weerTabel th {
+    font-size: 13px;  
+    }
+
+    #weerTabel td{
+        font-size: 12px;
+    }
+    
+    tabel{
+        width: 100%;
+    }
+}

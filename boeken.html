@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Het strandhuisje - Boeken</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="witteAchtergrond">
+        <header>
+            <h1> 
+                Het strandhuisje
+            </h1>
+
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="studios.html">Studio's</a></li>
+                <li><a href="inDeBuurt.html">In de buurt</a></li>
+                <li class="UBentHier"><a href="boeken.html">Boeken</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="alles">
+            <main>
+                <h1>Boeken</h1>
+                <form>
+                    <h2>Boekingsopdracht</h2>
+                    <p>
+                        <label for="studio">Kies uw studio
+                        </label>
+                        <select id="studio" name="studio" class="kleinerInput">
+                            <option value="1">Studio 1</option>
+                            <option value="2">Studio 2</option>
+                            <option value="3">Studio 3</option>
+                            <option value="4">Studio 4</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="aantalpersonen">Aantal personen
+                        </label>
+                        <input id="aantalpersonen" type="number" min="1" max="6" step="1" name="aantalpersonen" required class="kleinerInput">
+                    </p>
+                                        <p>
+                        <label for="aankomst">Aankomst
+                        </label>
+                        <input id="aankomst" type="date" name="aankomst" required>
+                    </p>
+                                        <p>
+                        <label for="vertrek">Vertrek
+                        </label>
+                        <input id="vertrek" type="date" name="vertrek" required class="ietsMeerMargin">
+                    </p>
+                    
+                    <h2>Persoonlijke gegevens</h2>
+                    <p>
+                        <label for="voornaam">Voornaam
+                        </label>
+                        <input id="voornaam" type="text" name="voornaam" placeholder="Jan" required>
+                    </p>
+                    <p>
+                        <label for="achternaam">Achternaam
+                        </label>
+                        <input id="achternaam" type="text" name="achternaam" placeholder="Peters" required>
+                    </p>
+                    <p>
+                        <label for="telnr">Telefoonnummer
+                        </label>
+                        <input id="telnr" type="tel" name="telnr" placeholder="+ 32 11 32 43 54" required>
+                    </p>
+                    <p>
+                        <label for="postcode"> Postcode/ Plaats
+                        </label>
+                        <input id="postcode" type="text" maxlength="4" name="postcode" placeholder="2000" required class="kleinerInput">
+                        <input id="gemeente" type="text" name="gemeente" placeholder="Antwerpen" required>
+                    </p>
+                    <p>
+                        <label for="straatnaam"> Straat/ Huisnummer
+                        </label>
+                        <input id="straatnaam" type="text" name="straat" placeholder="Antwerpsebaan" required>
+                        <input id="huisnr" type="text" name="huisnummer" placeholder="25" required class="kleinerInput">
+                    </p>
+                    <p>
+                        <label for="email">E-mailadres
+                        </label>
+                        <input id="email" type="email" name="email" placeholder="janpeters@voorbeeld.com" required class="groterInput">
+                    </p>
+                    <p>
+                        <label for="geboortedatum">Geboortedatum
+                        </label>
+                        <input id="geboortedatum" type="date" name="geboortedatum" required>
+                    </p>
+
+                    <p>
+                        <label for="opmerkingen">Opmerkingen
+                        </label>
+                        <br/>
+                        <textarea id="opmerkingen" name="opmerkingen" cols="80" rows="10" placeholder="Eventuele opmerkingen of vragen" ></textarea>
+                    </p>
+                    <p class="meerMargin"><input type="submit" id="boek" name="boek" value="boek studio" class="button"></p>
+                </form>
+            </main>
+        </div>
+        <div class="footer">
+            <div id="knoppenStudios">
+                <p class="DonkereTekst">Bekijk onze studio's:</p>
+                <ul>
+                    <li>
+                        <a href="studios.html#studio1">Studio 1</a>
+                    </li>
+                    <li><a href="studios.html#studio2">Studio 2</a></li>
+                    <li><a href="studios.html#studio3">Studio 3</a></li>
+                    <li><a href="studios.html#studio4">Studio 4</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
